@@ -29,4 +29,8 @@ The model selection is based on performance comparison, with LightGBM emerging a
 
 ## Dataset
 
-The dataset used in this repository is available on [Kaggle](https://www.kaggle.com/datasets/hamidrezasj/intent-classification-dataset). It includes recordings and their corresponding intent labels across 7 different classes.
+The dataset includes recordings and their corresponding intent labels across 7 different classes. It is available on:
+
+📂 **[Intent Classification Dataset](https://www.kaggle.com/datasets/hamidrezasj/intent-classification-dataset)**
+
+Feel free to explore, download, and use the datasets for your research or projects. If you find this dataset helpful, consider giving it an upvote on Kaggle! 🚀
