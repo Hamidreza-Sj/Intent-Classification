@@ -11,7 +11,7 @@ Audio Intent Classification aims to accurately classify audio recordings into on
 - **Classification:** Use and compare two popular ML algorithms—Support Vector Machine and Light GBM (tree-based model)—to build intent classifiers.
 
 **Outcome:**  
-The model selection is based on performance comparison, with Support Vector Machine emerging as the best-performing algorithm for this dataset.
+The model selection is based on performance comparison, with the Support Vector Machine emerging as the best-performing algorithm for this dataset.
 
 ## Repository Contents
 
