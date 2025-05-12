@@ -6,12 +6,11 @@
 Audio Intent Classification aims to accurately classify audio recordings into one of 7 intent categories.
 
 **Approach:**  
-- **Feature Extraction:** Extract MFCCs from audio signals.
-- **Data Balancing:** Ensure balanced data for fair training.
-- **Classification:** Use and compare two popular ML algorithms—Support Vector Machine and Light GBM (tree-based model)—to build intent classifiers.
+- **Feature Extraction:** Extract Mel-Frequency Cepstral Coefficients (MFCCs) from the audio signals to represent important acoustic features.
+- **Classification:** Use two classification strategies:
+### Classical Machine Learning: Implement and compare two widely used algorithms—Support Vector Machine (SVM) and LightGBM (a gradient boosting tree-based model)—to build intent classifiers.
+### Neural Network Model: Design and train a neural network model for the same classification task to evaluate performance against classical methods.
 
-**Outcome:**  
-The model selection is based on performance comparison, with the Support Vector Machine emerging as the best-performing algorithm for this dataset.
 
 ## Repository Contents
 
@@ -21,14 +20,10 @@ The model selection is based on performance comparison, with the Support Vector 
 - **evaluation.csv**  
   An evaluation set comprising 1,455 recordings with features for further testing and validation.
 
-
-- **main.ipynb**  
-  The main notebook file includes the implementation of both the Random Forest and LightGBM classifiers, along with all the supporting code for data processing, feature extraction, model training, and evaluation.
-
 ## Dataset
 
 The dataset includes recordings and their corresponding intent labels across 7 different classes. It is available on:
 
 📂 **[Intent Classification Dataset](https://www.kaggle.com/datasets/hamidrezasj/intent-classification-dataset)**
 
-Feel free to explore, download, and use the datasets for your research or projects. If you find this dataset helpful, consider giving it an upvote on Kaggle! 🚀
+Feel free to explore, download, and use the datasets for your research or projects. If you find this dataset helpful, consider giving it an upvote on Kaggle.
