@@ -8,8 +8,8 @@ Audio Intent Classification aims to accurately classify audio recordings into on
 **Approach:**  
 - **Feature Extraction:** Extract Mel-Frequency Cepstral Coefficients (MFCCs) from the audio signals to represent important acoustic features.
 - **Classification:** Use two classification strategies:
-### 1. Classical Machine Learning: Implement and compare two widely used algorithms—Support Vector Machine (SVM) and LightGBM (a gradient boosting tree-based model)—to build intent classifiers.
-### 2. Neural Network Model: Design and train a neural network model for the same classification task to evaluate performance against classical methods.
+**1. Classical Machine Learning:** Implement and compare two widely used algorithms—Support Vector Machine (SVM) and LightGBM (a gradient boosting tree-based model)—to build intent classifiers.
+**2. Neural Network Model:** Design and train a neural network model for the same classification task to evaluate performance against classical methods.
 
 
 ## Repository Contents
